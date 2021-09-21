@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <p>Sahil Weather App</p>
+    </div>
+    <div class="main-body">
+      <div class="sidebar">
+        <button id="get_btn">Get Weather</button>
+        <table>
+          <th>City</th>
+          <tr>
+            <td id="col_1">London</td>
+          </tr>
+          <tr>
+            <td id="col_2">New York</td>
+          </tr>
+          <tr>
+            <td id="col_3">Los Angeles</td>
+          </tr>
+          <tr>
+            <td id="col_4">Las Vegas</td>
+          </tr>
+        </table>
+      </div>
+      <div class="main">
+        <div class="search">
+          <input type="text" id="search_field" />
+          <button class="btn" id="search_btn">Search</button>
+        </div>
+        <div class="table">
+          <table id="table_data">
+            <tr>
+              <th>City</th>
+              <th>Discription</th>
+              <th>Temprature</th>
+              <th>Pressure</th>
+              <th>Date</th>
+              <th>Action</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
